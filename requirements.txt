@@ -1,0 +1,15 @@
+requests
+beautifulsoup4
+selenium
+playwright
+aiohttp
+httpx
+pandas
+openpyxl
+python-telegram-bot
+discord.py
+tweepy
+schedule
+celery
+flask
+pytest

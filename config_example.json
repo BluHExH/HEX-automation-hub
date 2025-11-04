@@ -1,0 +1,51 @@
+{
+  "web_scraper": {
+    "mode": "static",
+    "base_url": "https://example.com",
+    "selectors": {},
+    "pagination": {}
+  },
+  "api": {
+    "endpoints": [
+      {
+        "url": "...",
+        "method": "GET",
+        "headers": {},
+        "params": {}
+      }
+    ],
+    "concurrency": 5,
+    "retry": 3
+  },
+  "browser": {
+    "headless": true,
+    "remote_url": "",
+    "tasks": []
+  },
+  "rpa": {
+    "tasks": ["file_copy", "email_send", "excel_update"],
+    "schedule": "0 * * * *"
+  },
+  "social_bots": {
+    "telegram": {
+      "token": "...",
+      "chat_id": "..."
+    },
+    "discord": {},
+    "twitter": {}
+  },
+  "storage": {
+    "type": "csv",
+    "path": "data/output.db",
+    "unique_key": "id"
+  },
+  "notifications": {
+    "telegram": true,
+    "slack": false,
+    "email": false
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file": "logs/app.log"
+  }
+}
