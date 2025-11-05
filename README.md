@@ -35,7 +35,7 @@ A production-ready, multi-purpose automation tool supporting web scraping, API a
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/BluHExH/HEX-automation-hub>
 cd HEX-automation-hub
 
 # Install dependencies
