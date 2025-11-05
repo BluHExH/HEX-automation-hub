@@ -1,7 +1,7 @@
 # HEX Automation Hub
 
 A production-ready, multi-purpose automation tool supporting web scraping, API automation, browser automation, RPA workflows, and social media bots.
-
+![My image](https://github.com/BluHExH/BluHExH/blob/main/IMG_20251105_073905.png)
 ## Features
 
 - **Web Scraping / Crawling**: Static and JS-heavy site scraping with concurrent fetching
